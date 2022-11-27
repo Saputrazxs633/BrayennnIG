@@ -196,7 +196,7 @@ for tu in range(1000):
             h = random.randrange(3,10)
             i = random.randrange(111111,199999)
             j = random.randrange(1,9)
-            ugens_xyaa = f'Mozilla/5.0 (Linux; U; Android {f}; {e}; {a} Build/MRA58K {i}.0{j}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{b}.0.{c}.{d} Mobile Safari/537.36 OppoBrowser/{g}.{h}.1.{h}'
+            ugens_xyaa = f'Mozilla/5.0 (Linux; U; Android {f}; {e}; {a} Build/N2G47H {i}.0{j}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{b}.0.{c}.{d} Mobile Safari/537.36 OppoBrowser/{g}.{h}.1.{h}'
             oppo.append(ugens_xyaa)
 try:
     proxs_xyaa = requests.get("https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all").text
@@ -635,7 +635,7 @@ class instagram:
 		self.satu = random.randrange(73, 99)
 		self.dua = random.randrange(4200, 4900)
 		self.tiga = random.randrange(40, 150)
-		useragent = f'''Mozilla/5.0 (Linux; Android 5.1; m3 note Build/LMY47I) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/40.0.2214.117 Mobile Safari/537.36 Instagram 9.2.5 Android (22/5.1; 480dpi; 1080x1920; Meizu; m3 catatan; m3note; mt6755; ru_RU) '''
+		useragent = f'''Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/55.0.2883.91 {self.satu}.0.{self.dua}.{self.tiga} Mobile Safari/537.36'''
 		return useragent
 
 	def passwordAPI(self,xnx):
